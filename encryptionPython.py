@@ -1,7 +1,7 @@
 from Crypto.Hash import SHA256
 from Crypto.Cipher import AES 
 import os, random, sys, pkg_resources
-
+#Start
 def encrypt(key, filename):
     chunksize = 64 * 1024
     outFile = os.path.join(os.path.dirname(filename), "(encrypted)" + os.path.basename(filename))
